@@ -26,7 +26,8 @@ let valorTransf = 300
 contaCorrenteRicardo.transferir(valorTransf, conta2);
 
 console.log(contaCorrenteRicardo)
-console.log(conta2);
+console.log(conta2.cliente);
+console.log(conta2.saldo);
 
 
 

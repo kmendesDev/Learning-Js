@@ -10,9 +10,18 @@ export class ContaCorrente {
             this._cliente = novoValor;
         }
     }
+
+    get cliente(){
+        return this._cliente;
+    }
     // Atributo privado: #saldo
     // Convenção atual:
     _saldo = 0;
+
+    get saldo(){
+        return this._saldo;
+    }
+
     // MÉTODO:
     sacar(valor) {
         if (this._saldo >= valor) {
